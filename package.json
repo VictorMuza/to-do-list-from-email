@@ -1,0 +1,17 @@
+{
+  "name": "listadetarefasemail",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "scheduler.js",
+  "scripts": {
+    "start": "node scheduler.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
